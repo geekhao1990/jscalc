@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>js计算器</title>
+<link href="style/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="style/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+<link href="style/index.css" rel="stylesheet" type="text/css" />
+<script src="script/123.js"></script>
+</head>
+
+<body>
+	<div class="container box">
+    	<header>
+        	<h3>calculater</h3>
+        	<input class="form-control col-md-1 text-right" id="disabledInput" type="text" value="0" disabled />
+            <input type="text" id="hiddenInput" disabled />
+
+        </header>
+        <article>
+        	<div class="row">
+              	<button class="btn btn-primary" value="sin">sin(x)</button>
+				<button class="btn btn-primary" value="cos">cos(x)</button>
+                <button class="btn btn-primary" value="tan">tan(x)</button>
+                <button class="btn btn-danger" id="del" value="del">←</button>
+                <button class="btn btn-danger" id="clearZero" value="clear">C</button>
+            </div>
+        	<div class="row">
+              	<button class="btn btn-primary" value="arcsin">arcsin(x)</button>
+				<button class="btn btn-primary" value="arccos">arccos(x)</button>
+                <button class="btn btn-primary" value="arctan">arctan</button>
+                <button class="btn btn-primary" value="1/x">1/x</button>
+                <button class="btn btn-primary" value="sqrt">sqrt</button>
+            </div>
+            <div class="row">
+              	<button class="btn btn-success" value="7">7</button>
+				<button class="btn btn-success" value="8">8</button>
+                <button class="btn btn-success" value="9">9</button>
+                <button class="btn btn-warning" value="/">÷</button>
+                <button class="btn btn-primary" value="lgx">lg(x)</button>
+            </div>
+            <div class="row">
+              	<button class="btn btn-success" value="4">4</button>
+				<button class="btn btn-success" value="5">5</button>
+                <button class="btn btn-success" value="6">6</button>
+                <button class="btn btn-warning" value="*">X</button>
+                <button class="btn btn-primary" value="lnx">ln(x)</button>
+            </div>
+            <div class="row">
+              	<button class="btn btn-success" value="1">1</button>
+				<button class="btn btn-success" value="2">2</button>
+                <button class="btn btn-success" value="3">3</button>
+                <button class="btn btn-warning" value="-">-</button>
+                <button class="btn btn-primary" value="%">%</button>
+            </div>
+            <div class="row">
+              	<button class="btn btn-success" value="0">0</button>
+				<button class="btn btn-primary" value="+/-">+/-</button>
+                <button class="btn btn-success" value=".">.</button>
+                <button class="btn btn-warning" value="+">+</button>
+                <button class="btn btn-danger" value="calc">=</button>
+            </div>
+            <!--
+            <div class="row">
+              	<button class="btn btn-primary" value="e">e</button>
+				<button class="btn btn-primary" value="PI">π</button>
+                <button class="btn btn-primary" value="ln2">ln2</button>
+                <button class="btn btn-warning" value="factorial">n!</button>
+                <button class="btn btn-warning" value="denominator">1/x</button>
+            </div>
+            -->
+        </article>
+        
+    </div>
+</body>
+</html>
